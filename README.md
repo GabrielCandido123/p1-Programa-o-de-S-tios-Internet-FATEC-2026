@@ -43,6 +43,9 @@ A aplicação permite buscar personagens em uma API pública utilizando o nome d
 - Interatividade com o usuário
 
 ---
+## API UTILIZADA
+- [https://docs.jikan.moe]
+---
 
 ## 📸 Preview
 
