@@ -29,7 +29,11 @@ async function buscarPersonagens() {
       `https://api.jikan.moe/v4/anime?q=${nomeAnime}&limit=1`,
     );
     const dadosAnime = await respostaAnime.json();
-    const animeId = dadosAnime.data[0].mal_id;
+    const animeId = dadosAnime.data[0]?.mal_id;
+
+    if (!animeId)
+      return (galeria.innerHTML =
+        "<p>Nenhum personagem encontrado ou nome do anime invalido.</p>");
 
     const respostaPersonagens = await fetch(
       `https://api.jikan.moe/v4/anime/${animeId}/characters`,
@@ -37,6 +41,9 @@ async function buscarPersonagens() {
     const dadosPersonagens = await respostaPersonagens.json();
 
     galeria.replaceChildren();
+
+    if (!dadosPersonagens.data?.length)
+      return (galeria.innerHTML = "<p>Nenhum personagem encontrado</p>");
 
     dadosPersonagens.data.forEach((item) => {
       const cardPronto = criarTemplatePersonagem(item);
