@@ -43,13 +43,31 @@ A aplicação permite buscar personagens em uma API pública utilizando o nome d
 - Interatividade com o usuário
 
 ---
+
 ## API UTILIZADA
+
 - [https://docs.jikan.moe]
+
 ---
 
 ## 📸 Preview
 
 ![](consumir-api.png)
+
+---
+
+## Critérios
+
+- [x] Foi criado o campo de busca? (0,5)
+- [x] Os cards são criados dinamicamente? (1,5)
+- [x] Os cards são criados dependendo da busca? (1,5)
+- [x] Foi utilizado métodos para criar os novos elementos HTML? (1,5)
+- [x] O consumo de API foi feito usando o `fetch()`? (1,5)
+- [x] Incluiu tratamento de erro no campo de busca? (0,5)
+- [x] Está responsivo? (1,0)
+- [x] Foi criado o README com informações do projeto? (1,0)
+- [x] Foi habilitado o github Pages? (0,5)
+- [ ] Foi publicado no linkedIn? (0,5)
 
 ---
 
