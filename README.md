@@ -50,14 +50,6 @@ A aplicação permite buscar personagens em uma API pública utilizando o nome d
 
 ---
 
-## 📢 Post no LinkedIn
-
-Confira a publicação sobre este projeto:
-
-👉 [COLE AQUI O LINK DO POST]
-
----
-
 ## 👨‍🏫 Disciplina
 
 **Programação de Sítios Internet**  
