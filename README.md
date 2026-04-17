@@ -46,7 +46,7 @@ A aplicação permite buscar personagens em uma API pública e exibir suas infor
 
 ## 📸 Preview
 
-![](./consumir-api.png)
+![](consumir-api.png)
 
 ---
 
