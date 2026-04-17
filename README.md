@@ -30,7 +30,7 @@ Criar uma aplicação web utilizando **JavaScript puro (Vanilla JS)** para consu
 ## 🔗 Acesse o Projeto
 
 - 💻 GitHub: [https://github.com/GabrielCandido123/p1-Programa-o-de-S-tios-Internet-FATEC-2026]
-- 🌐 GitHub Pages: [COLE AQUI O LINK]
+- 🌐 GitHub Pages: [https://gabrielcandido123.github.io/p1-Programa-o-de-S-tios-Internet-FATEC-2026/]
 
 ---
 
