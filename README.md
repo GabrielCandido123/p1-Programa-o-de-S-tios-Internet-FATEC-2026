@@ -36,7 +36,7 @@ Criar uma aplicação web utilizando **JavaScript puro (Vanilla JS)** para consu
 
 ## 📚 Sobre o Projeto
 
-A aplicação permite buscar personagens em uma API pública e exibir suas informações de forma dinâmica, reforçando conceitos fundamentais de desenvolvimento front-end como:
+A aplicação permite buscar personagens em uma API pública utilizando o nome do anime e exibe suas informações de forma dinâmica, reforçando conceitos fundamentais de desenvolvimento front-end como:
 
 - Requisições HTTP
 - Manipulação de elementos HTML via JavaScript
